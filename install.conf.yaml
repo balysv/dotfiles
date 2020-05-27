@@ -1,0 +1,53 @@
+# Config file for dotbot
+# Balys Valentukevicius (balysv)
+
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~/', '~/.config']
+
+# bash
+- link:
+    ~/.bashrc: bash/bashrc
+    ~/.bash_logout: bash/bash_logout    
+
+# Zsh
+- shell:
+    - zsh/install.sh
+- link:    
+    ~/.oh-my-zsh: zsh/ohmyzsh
+    ~/.zshrc: zsh/zshrc
+    ~/.zsh/z.sh: zsh/z/z.sh
+    ~/.zsh/zsh-syntax-highlighting.zsh: zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    ~/.zsh/docker-aliases.sh: zsh/docker-aliases.sh
+    ~/.oh-my-zsh/custom/plugins/zsh-completions: zsh/zsh-completions
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search: zsh/zsh-history-substring-search
+
+# Git
+- link: 
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
+    ~/.gitattributes_global: git/gitattributes_global
+
+# Fonts    
+- shell:
+    - fonts/fonts/install.sh
+
+# Terminator
+- link: 
+    ~/.config/terminator/config: terminator/config
+- shell:
+    - terminator/install.sh
+
+# Vim
+- link: 
+    ~/.vimrc: vim/vimrc
+    ~/.vim/bundle/Vundle.vim: vim/bundle/Vundle.vim
+
+# Treatwell
+- link: 
+    ~/.zsh/tw.sh: zsh/tw.sh
+

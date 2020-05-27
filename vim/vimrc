@@ -1,0 +1,27 @@
+" Vundle.vim (https://github.com/VundleVim/Vundle.vim) configuration
+set nocompatible              
+filetype off                  
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Add Custom plugins below
+Plugin 'vim-airline/vim-airline' " https://github.com/vim-airline/vim-airline
+
+" All plugins must be added before this
+call vundle#end() 
+filetype plugin indent on
+" End Vundle.vim configuration
+
+" Enable powerline font symbols
+let g:airline_powerline_fonts = 1
+
+
+" Syntax highlighting
+syntax on
+" Set indents to 4 spaces even with the tab key
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
