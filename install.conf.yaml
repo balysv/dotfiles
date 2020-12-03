@@ -47,7 +47,4 @@
     ~/.vimrc: vim/vimrc
     ~/.vim/bundle/Vundle.vim: vim/bundle/Vundle.vim
 
-# Treatwell
-- link: 
-    ~/.zsh/tw.sh: zsh/tw.sh
 
