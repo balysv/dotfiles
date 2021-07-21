@@ -29,7 +29,6 @@ source $ZSH/oh-my-zsh.sh
 
 export GOPATH=~/.go
 export GOBIN=~/.go/build/bin
-source ~/.rvm/scripts/rvm
 
 # Load custom configuration files and scripts from '~/.zsh'
 for i in $HOME/.zsh/*; do;
