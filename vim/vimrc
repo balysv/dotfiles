@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 " Add Custom plugins below
 Plugin 'vim-airline/vim-airline' " https://github.com/vim-airline/vim-airline
 
+Plugin 'elixir-editors/vim-elixir' " https://github.com/elixir-editors/vim-elixir
+
 " All plugins must be added before this
 call vundle#end() 
 filetype plugin indent on
