@@ -23,7 +23,8 @@
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 	# Switch to a branch
-	ch = checkout
+	sw = switch
+	ch = switch
 	# Force delete branch
 	de = branch -D
 	# Show verbose output about tags, branches or remotes

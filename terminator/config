@@ -26,4 +26,22 @@
       type = Terminal
       parent = window0
       profile = default
+  [[New Layout]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 50:77
+      maximised = False
+      fullscreen = False
+      size = 734, 452
+      title = balys@the-app-machine:~
+      last_active_term = 6d8f9bda-e9e0-49bd-9c90-496207e93d7d
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 6d8f9bda-e9e0-49bd-9c90-496207e93d7d
 [plugins]
