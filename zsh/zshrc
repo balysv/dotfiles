@@ -21,6 +21,7 @@ plugins=(
    zsh-autosuggestions
    history-substring-search
    zsh-completions
+   asdf
 )
 
 source $ZSH/oh-my-zsh.sh
